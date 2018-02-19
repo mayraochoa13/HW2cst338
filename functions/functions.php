@@ -10,7 +10,9 @@
                   $key = "motivation";
               }
          printMessage($key);
-         getEmoji(rand(0,4));
+         for($i=0;$i<2;$i++){
+             getEmoji(rand(0,4));
+         }
     }
     function image(){
         echo "<img id ='reel' src='img/cooki2.png' alt = '$symbol' title = '".ucfirst($symbol)."' width='550'/>";
