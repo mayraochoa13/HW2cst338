@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina');
+    
+body {
+        background-image:url("../img/chinese.jpg");
+        color: black;
+        font-weight: bold;
+        font-size: large;
+        background-color: black;
+}
+h2{
+    top:50px;
+   text-align: center;
+   font-size: small;
+   margin-top: -50px;
+}
+#reel{
+    -webkit-animation-name: movement; 
+    -webkit-animation-duration: 10s;
+    animation-name: movement;
+    animation-duration: 12s;
+}
+#reel{
+    top:130px;
+    left: -80px;
+    position: absolute;
+}
+@-webkit-keyframes movement {
+    75%  {left:250px; right:0px;}
+}
+#reel2{
+    top: -20px;
+    left: -100px; 
+    position:none;
+}
+#main {
+        width:100px;
+        height:500px;
+        position:relative;
+        margin:0 auto;
+}
+header{
+    text-align: center;
+    color: beige;
+    font-size:2em;
+  
+}
+input{
+        bottom:250px;
+        left:550px;
+        position:absolute;
+        font-size: 3em;
+        background-color: inherit;
+        border:none;
+        outline:none; 
+        font-weight:bold;
+        color:black;
+        cursor:pointer;
+    }
+    
+#output{
+    width:600px;   
+    margin:0 auto;
+    position:absolute;
+    text-align:center;
+    top:450px;
+    font-size:1.5em;
+    line-height: .7em;
+}
+    
+footer{
+        font-family: "Times New Roman", Georgia, Serif;
+        font-size:.8em;
+        width:400px;
+        margin:0 auto;
+        padding-top:30px;
+        text-align: center;
+}
