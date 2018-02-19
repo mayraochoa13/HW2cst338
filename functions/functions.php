@@ -11,7 +11,12 @@
               }
          printMessage($key);
          for($i=0;$i<2;$i++){
-             getEmoji(rand(0,4));
+             if($value==1){
+                getEmoji(rand(0,2));
+                $i++;
+             } else{
+                 getEmoji(rand(2,4));
+             }
          }
     }
     function image(){

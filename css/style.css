@@ -6,15 +6,17 @@ body {
         font-weight: bold;
         font-size: large;
         background-color: black;
+        font-family: Arial, Helvetica, sans-serif;
 }
 h2{
     top:50px;
    text-align: center;
    font-size: small;
    margin-top: -50px;
+   font-family: Arial, Helvetica, sans-serif;
 }
 #reel{
-    animation-delay: 2s;
+    animation-delay: 1s;
     -webkit-animation-name: movement; 
     -webkit-animation-duration: 10s;
     animation-name: movement;
@@ -38,6 +40,7 @@ h2{
         height:500px;
         position:relative;
         margin:0 auto;
+       font-family: Arial, Helvetica, sans-serif;
 }
 header{
     text-align: center;
