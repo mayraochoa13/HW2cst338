@@ -14,6 +14,7 @@ h2{
    margin-top: -50px;
 }
 #reel{
+    animation-delay: 2s;
     -webkit-animation-name: movement; 
     -webkit-animation-duration: 10s;
     animation-name: movement;
